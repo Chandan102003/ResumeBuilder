@@ -5,11 +5,11 @@ const outputContainer = document.querySelector(".output_container");
 
 let isHidden = true; 
 
-// Function to toggle between input form and resume preview 
+
 function hide() { 
 	if (isHidden) { 
 	
-		// Hide the input form and show the resume preview 
+		
 		main.style.display = "none"; 
 		isHidden = false; 
 
